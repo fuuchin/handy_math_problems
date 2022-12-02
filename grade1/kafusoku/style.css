@@ -4,6 +4,11 @@ main {
   padding-bottom: 10px;
 }
 
+h1 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 .quiz-select {
   display: flex;
   flex-direction: row;
@@ -13,13 +18,13 @@ main {
   align-items: center;
 }
 
-.link1 {
+.easy {
   color: #fff;
   text-decoration: none;
   font-size: 40px;
 }
 
-.button1 {
+.easy-button {
   margin-bottom: 15px;
   text-align: center;
   padding-top: 40px;
@@ -30,13 +35,13 @@ main {
   height: 150px;
 }
 
-.link2 {
+.normal {
   color: #0290fe;
   text-decoration: none;
   font-size: 40px;
 }
 
-.button2 {
+.normal-button {
   margin-bottom: 15px;
   text-align: center;
   padding-top: 40px;
@@ -47,36 +52,19 @@ main {
   height: 150px;
 }
 
-.link3 {
+.difficult {
   color: #ea0f0f;
   text-decoration: none;
   font-size: 40px;
 }
 
-.button3 {
+.difficult-button {
   margin-bottom: 15px;
   text-align: center;
   padding-top: 40px;
   border: 2px solid #fe9090;
   border-radius: 10px;
   background: #fecccc;
-  width: 85%;
-  height: 150px;
-}
-
-.link4 {
-  color: #009425;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-.button4 {
-  margin-bottom: 15px;
-  text-align: center;
-  padding-top: 40px;
-  border: 2px solid #c7c700;
-  border-radius: 10px;
-  background: #fafa71;
   width: 85%;
   height: 150px;
 }
