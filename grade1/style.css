@@ -13,13 +13,13 @@ main {
   align-items: center;
 }
 
-.link1 {
+.houteishiki {
   color: #fff;
   text-decoration: none;
   font-size: 40px;
 }
 
-.button1 {
+.houteishiki-button {
   margin-bottom: 15px;
   text-align: center;
   padding-top: 40px;
@@ -30,53 +30,19 @@ main {
   height: 150px;
 }
 
-.link2 {
+.hirei {
   color: #0290fe;
   text-decoration: none;
   font-size: 40px;
 }
 
-.button2 {
+.hirei-button {
   margin-bottom: 15px;
   text-align: center;
   padding-top: 40px;
   border: 2px solid #02de90;
   border-radius: 10px;
   background: #40fe40;
-  width: 85%;
-  height: 150px;
-}
-
-.link3 {
-  color: #ea0f0f;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-.button3 {
-  margin-bottom: 15px;
-  text-align: center;
-  padding-top: 40px;
-  border: 2px solid #fe9090;
-  border-radius: 10px;
-  background: #fecccc;
-  width: 85%;
-  height: 150px;
-}
-
-.link4 {
-  color: #009425;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-.button4 {
-  margin-bottom: 15px;
-  text-align: center;
-  padding-top: 40px;
-  border: 2px solid #c7c700;
-  border-radius: 10px;
-  background: #fafa71;
   width: 85%;
   height: 150px;
 }
