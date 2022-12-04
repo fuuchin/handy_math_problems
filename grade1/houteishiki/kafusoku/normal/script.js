@@ -37,7 +37,7 @@ quizButton.onclick = () => {
   let quizText = `担任の先生に渡すプレゼント代を皆で集めます。<br>${passNumA}円ずつ集めると${over}円余り、<br>${passNumB}円ずつ集めると${shortage}円足りません。<br>何円のプレゼントを買うのでしょうか？`;
   quizArea.innerHTML = quizText;
   answer = present;
-  answerText = [`正解！${answer}円でした！集める人数は${people}人です！`, `残念！不正解です。`, `正解は${answer}円でした。集める人数は${people}人です。<br>方程式は、集める人数をxとして立て、このように解きましょう。<br>${passNumA}x - ${over} = ${passNumB}x + ${shortage}<br>${passNumA}x - ${passNumB}x = ${shortage} + ${over}<br>${passNumA - passNumB}x =  ${shortage + over}<br>x = ${(shortage + over) / (passNumA - passNumB)}<br>最後に、式にxの値を代入して、値段を求めましょう。<br>${passNumA} × ${(shortage + over) / (passNumA - passNumB)} - ${over} = ${passNumA * ((shortage + over) / (passNumA - passNumB)) - over}<br>答え：<span style="text-decoration: underline;">${answer}円</span>`];
+  answerText = [`正解！${answer}円でした！集める人数は${people}人です！`, `残念！不正解です。`, `正解は${answer}円でした。集める人数は${people}人です。<br>方程式は、集める人数をxとして立て、このように解きましょう。<br>${passNumA !== 1 ? passNumA : ''}x - ${over} = ${passNumB !== 1 ? passNumB : ''}x + ${shortage}<br>${passNumA !== 1 ? passNumA : ''}x - ${passNumB !== 1 ? passNumB : ''}x = ${shortage} + ${over}<br>${passNumA - passNumB !== 1 ? passNumA - passNumB : ''}x =  ${shortage + over}${passNumA - passNumB !== 1 ? `<br>x = ${(shortage + over) / (passNumA - passNumB)}` : ''}<br>最後に、式にxの値を代入して、値段を求めましょう。<br>${passNumA} × ${(shortage + over) / (passNumA - passNumB)} - ${over} = ${passNumA * ((shortage + over) / (passNumA - passNumB)) - over}<br>答え：<span style="text-decoration: underline;">${answer}円</span>`];
 
   answerArea.style.display = 'none';
 }
