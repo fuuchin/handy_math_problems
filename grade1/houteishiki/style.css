@@ -4,6 +4,11 @@ main {
   padding-bottom: 10px;
 }
 
+h1 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 .quiz-select {
   display: flex;
   flex-direction: row;
