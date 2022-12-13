@@ -85,3 +85,33 @@ h1 {
   width: 85%;
   height: 150px;
 }
+
+.link-comingsoon {
+  color: #404040;
+  text-decoration: none;
+  font-size: 33px;
+}
+
+.link-comingsoon:hover {
+  color: #404040;
+  text-decoration: none;
+  font-size: 33px;
+  cursor: auto;
+}
+
+.text-comingsoon {
+  color: #404040;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.button-comingsoon {
+  margin-bottom: 15px;
+  text-align: center;
+  padding-top: 40px;
+  border: 2px solid #5a5a5a;
+  border-radius: 10px;
+  background: #b0b0b0;
+  width: 85%;
+  height: 150px;
+}
